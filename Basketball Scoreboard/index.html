@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scorecard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>SCORECARD</h1>
+      <div id="card-container">
+        <div id="home-card" class="blur-effect">
+          <div id="title">HOME</div>
+          <div id="display1" class="display">0</div>
+          <div id="button-container">
+          <button id="btn1" class="btn" onclick="add1('El1')" >+1</button>
+            <button id="btn2" class="btn" onclick="add2('El1')">+2</button>
+            <button id="btn3" class="btn" onclick="add3('El1')">+3</button>
+          </div>
+        </div>
+        
+        <div id="away-card" class="blur-effect">
+          <div id="title">AWAY</div>
+          <div id="display2" class="display">0</div>
+          <div id="button-container">
+            <button id="btn1" class="btn" onclick="add1('El2')">+1</button>
+            <button id="btn2" class="btn" onclick="add2('El2'); console.log(2)">+2</button>
+            <button id="btn3" class="btn" onclick="add3('El2'); console.log(3)">+3</button>
+          </div>
+        </div>
+      </div>
+      <button id="reset-btn" class="blur-effect" onclick="reset()">
+          RESET SCORE
+        </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
