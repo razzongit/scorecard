@@ -8,7 +8,7 @@ This is a simple beginner-level project that creates a **basketball-themed conta
 
 ## 📸 Preview
 
-![Basketball Container Screenshot]()
+![Basketball Container Screenshot](/scorecard-ss.png)
 
 ---
 
