@@ -8,7 +8,7 @@ This is a simple beginner-level project that creates a **basketball-themed conta
 
 ## 📸 Preview
 
-![Basketball Container Screenshot](/[scorecard-ss.png](https://github.com/razzongit/scorecard/blob/main/Scorecard-ss.png))
+![Basketball Container Screenshot](https://github.com/razzongit/scorecard/blob/main/Scorecard-ss.png)
 
 ---
 
